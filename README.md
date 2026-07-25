@@ -1,31 +1,45 @@
-# Anne Agent
+<p align="center">
+  <img src="./docs/assets/anne-logo.png" alt="Anne Agent mascot" width="220" />
+</p>
 
-**Un solo encargo en lenguaje natural → un DAG de agentes Cursor que trabajan en paralelo.**
+<h1 align="center">Anne Agent ✦</h1>
 
-CLI multiagente **open-source y gratis (MIT)** que orquesta tareas al estilo [AITarea](https://aitarea.com) usando **exclusivamente el [Cursor SDK](https://cursor.com/docs/sdk/typescript)** como cerebro. Sin wrappers de otros LLMs: planifica, ejecuta, verifica y audita con agentes Cursor locales.
+<p align="center">
+  <strong>Un encargo en lenguaje natural → un DAG de agentes Cursor en paralelo.</strong>
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A5%2022.13-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Cursor SDK](https://img.shields.io/badge/Cursor%20SDK-exclusivo-000000)](https://cursor.com/docs/sdk/typescript)
-[![GitHub stars](https://img.shields.io/github/stars/gonzalolinaresamezcua/anne-agent?style=social)](https://github.com/gonzalolinaresamezcua/anne-agent)
-[![Platform](https://img.shields.io/badge/platform-Linux-FCC624?logo=linux&logoColor=black)](https://github.com/gonzalolinaresamezcua/anne-agent)
+<p align="center">
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-%E2%89%A5%2022.13-339933?logo=node.js&logoColor=white" alt="Node.js" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://cursor.com/docs/sdk/typescript"><img src="https://img.shields.io/badge/Cursor%20SDK-exclusivo-000000" alt="Cursor SDK" /></a>
+  <a href="https://github.com/gonzalolinaresamezcua/anne-agent"><img src="https://img.shields.io/github/stars/gonzalolinaresamezcua/anne-agent?style=social" alt="GitHub stars" /></a>
+  <img src="https://img.shields.io/badge/platform-Linux-FCC624?logo=linux&logoColor=black" alt="Linux" />
+</p>
+
+<p align="center">
+  <img src="./docs/assets/banner.svg" alt="Anne Agent banner" width="880" />
+</p>
+
+CLI multiagente **open-source y gratis (MIT)** al estilo [AITarea](https://aitarea.com). Anne planifica, ejecuta, verifica y audita usando **exclusivamente el [Cursor SDK](https://cursor.com/docs/sdk/typescript)** — sin wrappers de otros LLMs.
 
 ```bash
 anne run "Crea un CLI hello-world en TypeScript en ./demo y añade tests"
 ```
 
 <p align="center">
-  <img src="./docs/demo.svg" alt="Demo de Anne Agent: encargo → DAG → ejecución en paralelo" width="880" />
+  <img src="./docs/demo.svg" alt="Demo de Anne Agent en terminal" width="880" />
 </p>
-
-> 💡 **¿Tienes un GIF/vídeo real de terminal?** Sustituye el SVG de arriba por `./docs/demo.gif` — es lo que más convierte en GitHub.
 
 ---
 
-## Por qué Anne
+## Qué trae Anne
 
-| Problema | Qué hace Anne |
+<p align="center">
+  <img src="./docs/assets/features.svg" alt="Features: DAG, paralelo, Cursor SDK, auditoría" width="880" />
+</p>
+
+| 🦊 Problema | ✦ Qué hace Anne |
 |---|---|
 | Un agente solo se atasca en encargos grandes | Descompone el objetivo en un **DAG** de subtareas |
 | Ejecutar todo en serie es lento | Lanza **workers Cursor en paralelo** (ready-set) |
@@ -33,6 +47,21 @@ anne run "Crea un CLI hello-world en TypeScript en ./demo y añade tests"
 | Quieres el mismo cerebro que Cursor | Usa **solo** `@cursor/sdk` (local runtime) |
 
 **100% gratis · MIT · Linux · TypeScript · Cursor SDK**
+
+---
+
+## Pipeline (fases AITarea)
+
+<p align="center">
+  <img src="./docs/assets/pipeline.svg" alt="Pipeline Describe → Analyze → Plan → Execute → Verify → Deliver" width="880" />
+</p>
+
+1. **Describe** 📝 — objetivo del usuario  
+2. **Analyze** 🔍 — clasificación y riesgos  
+3. **Plan** 🗺️ — DAG JSON (`nodes[]` con deps y acceptance)  
+4. **Execute** ⚡ — workers Cursor en paralelo (ready-set)  
+5. **Verify** ✅ — QA; puede reabrir nodos fallidos  
+6. **Deliver** 🎁 — resumen + memoria  
 
 ---
 
@@ -71,19 +100,6 @@ anne
 anne> /help
 anne> Crea un README breve en ./notas
 ```
-
-## Pipeline (fases AITarea)
-
-```text
-Describe → Analyze → Plan (DAG) → Execute (paralelo) → Verify → Deliver
-```
-
-1. **Describe** — objetivo del usuario
-2. **Analyze** — clasificación y riesgos
-3. **Plan** — DAG JSON (`nodes[]` con deps y acceptance)
-4. **Execute** — workers Cursor en paralelo (ready-set)
-5. **Verify** — QA; puede reabrir nodos fallidos
-6. **Deliver** — resumen + memoria
 
 ## Conceptos
 
@@ -133,7 +149,7 @@ Slash en REPL: `/help`, `/stop`, `/new`, `/status`, `/graph`, `/audit`, `/models
 
 Home override: `ANNE_HOME=/ruta`.
 
-## Cerebro: solo Cursor SDK
+## Cerebro: solo Cursor SDK 🧠
 
 Anne **no** envuelve OpenAI, Anthropic ni otros proveedores. El runtime es Cursor:
 
@@ -142,7 +158,7 @@ Anne **no** envuelve OpenAI, Anthropic ni otros proveedores. El runtime es Curso
 - Roles: planner / worker / verifier con selección de modelo configurable
 - Dispose garantizado; distingue errores de arranque vs run
 
-Documentación del SDK: [cursor.com/docs/sdk/typescript](https://cursor.com/docs/sdk/typescript)
+Docs: [cursor.com/docs/sdk/typescript](https://cursor.com/docs/sdk/typescript)
 
 ## Desarrollo
 
@@ -152,14 +168,18 @@ npm test
 npm run typecheck
 ```
 
-## Roadmap / contribuir
+## Contribuir
 
 Issues y PRs bienvenidos. Ideas útiles: más skills, exportación del DAG, demos, empaquetado npm.
 
-Si Anne te sirve, **una ⭐ en GitHub** ayuda mucho a que más gente lo descubra.
+Si Anne te sirve, **una ⭐** ayuda muchísimo a que más gente la descubra.
+
+<p align="center">
+  <img src="./docs/assets/mark.svg" alt="Anne mark" width="72" />
+</p>
 
 ## Licencia
 
 [MIT](./LICENSE) — gratis para uso personal y comercial.
 
-Hecho por [digitacode.es](https://digitacode.es)
+Hecho con ✦ por [digitacode.es](https://digitacode.es)
