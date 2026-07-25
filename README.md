@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/assets/anne-logo.jpg" alt="Anne Agent" width="420" />
+  <img src="https://raw.githubusercontent.com/gonzalolinaresamezcua/anne-agent/main/docs/assets/anne-logo.jpg" alt="Anne Agent" width="420" />
 </p>
 
 <h1 align="center">Anne Agent ✦</h1>
@@ -24,7 +24,7 @@ anne run "Crea un CLI hello-world en TypeScript en ./demo y añade tests"
 ```
 
 <p align="center">
-  <img src="./docs/demo.svg" alt="Demo de Anne Agent en terminal" width="880" />
+  <img src="https://raw.githubusercontent.com/gonzalolinaresamezcua/anne-agent/main/docs/assets/demo.jpg" alt="Demo de Anne Agent en terminal" width="880" />
 </p>
 
 ---
@@ -32,7 +32,7 @@ anne run "Crea un CLI hello-world en TypeScript en ./demo y añade tests"
 ## Qué trae Anne
 
 <p align="center">
-  <img src="./docs/assets/features.svg" alt="Features: DAG, paralelo, Cursor SDK, auditoría" width="880" />
+  <img src="https://raw.githubusercontent.com/gonzalolinaresamezcua/anne-agent/main/docs/assets/features.jpg" alt="Features: DAG, paralelo, Cursor SDK, auditoría" width="880" />
 </p>
 
 | Problema | Qué hace Anne |
@@ -49,7 +49,7 @@ anne run "Crea un CLI hello-world en TypeScript en ./demo y añade tests"
 ## Pipeline (fases AITarea)
 
 <p align="center">
-  <img src="./docs/assets/pipeline.svg" alt="Pipeline Describe → Analyze → Plan → Execute → Verify → Deliver" width="880" />
+  <img src="https://raw.githubusercontent.com/gonzalolinaresamezcua/anne-agent/main/docs/assets/pipeline.jpg" alt="Pipeline Describe → Analyze → Plan → Execute → Verify → Deliver" width="880" />
 </p>
 
 1. **Describe** 📝 — objetivo del usuario  
