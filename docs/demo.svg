@@ -26,25 +26,24 @@
   <rect width="880" height="420" rx="18" fill="url(#bg)"/>
   <rect x="16" y="16" width="848" height="388" rx="14" fill="#0a101a" stroke="#243247" stroke-width="1"/>
 
-  <!-- title bar -->
   <circle cx="44" cy="40" r="6" fill="#ff5f57"/>
   <circle cx="66" cy="40" r="6" fill="#febc2e"/>
   <circle cx="88" cy="40" r="6" fill="#28c840"/>
-  <text x="440" y="45" text-anchor="middle" class="line muted" font-size="13">anne-agent  demo</text>
+  <text x="440" y="45" text-anchor="middle" class="line muted" font-size="13">anne-agent - demo</text>
 
   <g clip-path="url(#screen)">
     <text x="40" y="90" class="line fade" style="animation-delay:0.2s"><tspan class="prompt">$</tspan> anne run "Crea un CLI hello-world en TypeScript con tests"</text>
 
     <text x="40" y="126" class="line muted fade" style="animation-delay:0.9s">[describe] Encargo recibido</text>
-    <text x="40" y="152" class="line muted fade" style="animation-delay:1.4s">[analyze] Riesgo bajo · dominio: tooling</text>
-    <text x="40" y="178" class="line cyan fade" style="animation-delay:1.9s">[plan] DAG: 4 nodos · maxParallel=3</text>
+    <text x="40" y="152" class="line muted fade" style="animation-delay:1.4s">[analyze] Riesgo bajo Â· dominio: tooling</text>
+    <text x="40" y="178" class="line cyan fade" style="animation-delay:1.9s">[plan] DAG: 4 nodos Â· maxParallel=3</text>
 
-    <text x="40" y="214" class="line yellow fade" style="animation-delay:2.5s">[execute] ¶ scaffold-cli   ¶ add-tests   ¶ write-readme</text>
-    <text x="40" y="240" class="line green fade" style="animation-delay:3.3s">[execute]  scaffold-cli    add-tests    write-readme</text>
-    <text x="40" y="266" class="line yellow fade" style="animation-delay:3.9s">[execute] ¶ verify-package</text>
-    <text x="40" y="292" class="line green fade" style="animation-delay:4.5s">[verify] QA OK · 0 nodos reabiertos</text>
-    <text x="40" y="318" class="line green fade" style="animation-delay:5.1s">[deliver] Listo en ./demo · auditoría guardada</text>
+    <text x="40" y="214" class="line yellow fade" style="animation-delay:2.5s">[execute] &gt; scaffold-cli   &gt; add-tests   &gt; write-readme</text>
+    <text x="40" y="240" class="line green fade" style="animation-delay:3.3s">[execute] OK scaffold-cli   OK add-tests   OK write-readme</text>
+    <text x="40" y="266" class="line yellow fade" style="animation-delay:3.9s">[execute] &gt; verify-package</text>
+    <text x="40" y="292" class="line green fade" style="animation-delay:4.5s">[verify] QA OK Â· 0 nodos reabiertos</text>
+    <text x="40" y="318" class="line green fade" style="animation-delay:5.1s">[deliver] Listo en ./demo Â· auditoria guardada</text>
 
-    <text x="40" y="360" class="line fade" style="animation-delay:5.7s"><tspan class="prompt">$</tspan> anne graph<tspan class="cursor"> </tspan></text>
+    <text x="40" y="360" class="line fade" style="animation-delay:5.7s"><tspan class="prompt">$</tspan> anne graph<tspan class="cursor"> _</tspan></text>
   </g>
 </svg>
