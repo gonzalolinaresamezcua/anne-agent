@@ -20,22 +20,23 @@
   <!-- steps -->
   <g transform="translate(50,28)">
     <circle cx="40" cy="42" r="36" fill="#ffedd5"/>
-    <text x="40" y="52" class="emoji">=Ý</text>
+    <text x="40" y="52" class="emoji">=ï¿½</text>
     <text x="40" y="100" class="lab">Describe</text>
   </g>
   <g transform="translate(190,28)">
     <circle cx="40" cy="42" r="36" fill="#ccfbf1"/>
-    <text x="40" y="52" class="emoji">=</text>
+    <text x="40" y="52" class="emoji">=
+</text>
     <text x="40" y="100" class="lab">Analyze</text>
   </g>
   <g transform="translate(330,28)">
     <circle cx="40" cy="42" r="36" fill="#ffedd5"/>
-    <text x="40" y="52" class="emoji">=ú</text>
+    <text x="40" y="52" class="emoji">=ï¿½</text>
     <text x="40" y="100" class="lab">Plan DAG</text>
   </g>
   <g transform="translate(470,28)">
     <circle cx="40" cy="42" r="36" fill="#ccfbf1"/>
-    <text x="40" y="52" class="emoji">¡</text>
+    <text x="40" y="52" class="emoji">ï¿½</text>
     <text x="40" y="100" class="lab">Execute</text>
   </g>
   <g transform="translate(610,28)">
@@ -45,7 +46,7 @@
   </g>
   <g transform="translate(750,28)">
     <circle cx="40" cy="42" r="36" fill="#ccfbf1"/>
-    <text x="40" y="52" class="emoji"><</text>
+    <text x="40" y="52" class="emoji"><ï¿½</text>
     <text x="40" y="100" class="lab">Deliver</text>
   </g>
 </svg>

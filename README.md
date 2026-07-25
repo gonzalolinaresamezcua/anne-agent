@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/assets/anne-logo.png" alt="Anne Agent mascot" width="220" />
+  <img src="./docs/assets/anne-logo.jpg" alt="Anne Agent" width="420" />
 </p>
 
 <h1 align="center">Anne Agent ✦</h1>
@@ -15,10 +15,6 @@
   <a href="https://cursor.com/docs/sdk/typescript"><img src="https://img.shields.io/badge/Cursor%20SDK-exclusivo-000000" alt="Cursor SDK" /></a>
   <a href="https://github.com/gonzalolinaresamezcua/anne-agent"><img src="https://img.shields.io/github/stars/gonzalolinaresamezcua/anne-agent?style=social" alt="GitHub stars" /></a>
   <img src="https://img.shields.io/badge/platform-Linux-FCC624?logo=linux&logoColor=black" alt="Linux" />
-</p>
-
-<p align="center">
-  <img src="./docs/assets/banner.svg" alt="Anne Agent banner" width="880" />
 </p>
 
 CLI multiagente **open-source y gratis (MIT)** al estilo [AITarea](https://aitarea.com). Anne planifica, ejecuta, verifica y audita usando **exclusivamente el [Cursor SDK](https://cursor.com/docs/sdk/typescript)** — sin wrappers de otros LLMs.
@@ -39,7 +35,7 @@ anne run "Crea un CLI hello-world en TypeScript en ./demo y añade tests"
   <img src="./docs/assets/features.svg" alt="Features: DAG, paralelo, Cursor SDK, auditoría" width="880" />
 </p>
 
-| 🦊 Problema | ✦ Qué hace Anne |
+| Problema | Qué hace Anne |
 |---|---|
 | Un agente solo se atasca en encargos grandes | Descompone el objetivo en un **DAG** de subtareas |
 | Ejecutar todo en serie es lento | Lanza **workers Cursor en paralelo** (ready-set) |
@@ -173,10 +169,6 @@ npm run typecheck
 Issues y PRs bienvenidos. Ideas útiles: más skills, exportación del DAG, demos, empaquetado npm.
 
 Si Anne te sirve, **una ⭐** ayuda muchísimo a que más gente la descubra.
-
-<p align="center">
-  <img src="./docs/assets/mark.svg" alt="Anne mark" width="72" />
-</p>
 
 ## Licencia
 
