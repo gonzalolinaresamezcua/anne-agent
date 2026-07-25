@@ -1,7 +1,7 @@
 {
   "name": "anne-agent",
   "version": "0.1.0",
-  "description": "CLI Linux multiagente: orquestación AITarea + cerebro Cursor SDK",
+  "description": "CLI multiagente open-source: convierte encargos en lenguaje natural en un DAG y los ejecuta en paralelo con Cursor SDK",
   "type": "module",
   "bin": {
     "anne": "./dist/cli/index.js"
@@ -22,11 +22,17 @@
     "node": ">=22.13"
   },
   "keywords": [
-    "anne",
-    "agent",
+    "ai-agent",
+    "multi-agent",
     "cursor-sdk",
-    "multiagent",
-    "cli"
+    "cli",
+    "typescript",
+    "agent-orchestration",
+    "linux",
+    "automation",
+    "aitarea",
+    "cursor",
+    "anne"
   ],
   "author": "digitacode.es",
   "license": "MIT",
